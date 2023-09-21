@@ -1,0 +1,27 @@
+header{
+    position:absolute;
+    background:red;
+    width:100%;
+    height:150px;
+    top:0;
+    left:0;
+}
+
+.Intro{
+position:relative;
+top:145px;
+background:blue;
+}
+
+.IntroWrap{
+Display:flex;
+align-items: center;
+justify-content:space-around;
+}
+
+.HeadWrap{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
