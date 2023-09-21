@@ -25,3 +25,13 @@ align-items: center;
 justify-content: space-between;
 }
 
+.hex{
+	width: 450px;
+	height: 320px; /* width*√3/2 */
+	clip-path: polygon(25% 0, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+	background: #ff9602;
+    position:absolute;
+    left:calc(50% - 225px);
+    top:-175px;
+    z-index: 1;
+}
